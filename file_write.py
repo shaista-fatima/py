@@ -1,0 +1,12 @@
+# f=open("safa2.txt","w")
+# f.write=("uh will get successful")
+# f.close()
+f=open("safa2.txt","a")
+a=f.write=("uh will get successful")
+print(a)
+f.close()
+# for read and write
+f=open("safa2.txt","r+")
+a=f.write=("uh will get successful")
+print(a)
+f.close()

@@ -1,0 +1,26 @@
+# grocery=["bhendi","aata","lollipop",22,32]
+# print(grocery[0:5])
+# numbers=[2,3,4,15,6]
+# numbers.sort()
+# numbers.reverse()
+# print(numbers[:])
+# print(numbers[1:5])
+# print(numbers[1:5:2])
+# print(len(numbers))
+# print(max(numbers))
+# print(min(numbers))
+# numbers.append(8)
+# print(numbers)
+l1=[]
+l1.append(1)
+l1.append(2)
+l1.append(3)
+l1.append(4)
+l1.append(5)
+print(l1)
+l1.insert(5,6)
+l1.remove(6)
+l1.pop(3)
+print(l1)
+l1[1]=3
+print(l1)

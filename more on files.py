@@ -1,0 +1,15 @@
+# f=open("safa2.txt")
+# # print(f.tell())
+# print(f.readline())
+# print(f.seek(10))
+# # print(f.tell())
+# print(f.readline())
+# f.close()
+# with block
+with open("safa2.txt")as f:
+    # a=f.read()
+    a=f.readlines()
+    print(a)
+# f=open("safa2.txt")
+# print(f.readline())
+# f.close()
